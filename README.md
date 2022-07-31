@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mansverma/cypress-automation/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mansverma/cypress-automation/tree/master)
+
 
 This reposetory contains e2e browser tests and API tests using cypress
 
