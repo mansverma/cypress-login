@@ -1,0 +1,14 @@
+{
+    "name": "automation-tests",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "cypress": "^4.12.1"
+    },
+    "scripts": {
+        "open": "cypress open  ./cypress",
+        "run": "cypress run  ./cypress",
+        "tests": "yarn e2e && yarn api",
+        "api": "yarn run run --spec './cypress/integration/api/*.js' --browser chrome",
+        "e2e": "yarn run run --spec './cypress/integration/web/*.js' --browser chrome"
+    }
+}
