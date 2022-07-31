@@ -1,5 +1,5 @@
-describe("Pet Store api test cases", () => {
-    it("get pet id", () => {
+describe("Send weather API request", () => {
+    it("should get weather report for Sydney", () => {
         cy.getAPIUrl().then((res) => {
             expect(res.status).to.eq(200);
             expect(res.body.coord.lon).to.eq(151.2073);
